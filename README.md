@@ -18,6 +18,13 @@ Examples:
     
     Another example would be for the word 'eat' some posible retrieve values are 'ate', 'eat' are 'tea' (if they where on the input list)
 
-## 2. 
+## 2. How to build it from source
 
-## 3.
+
+```bash
+```
+
+## 3. How to install it from source
+
+```bash
+```
