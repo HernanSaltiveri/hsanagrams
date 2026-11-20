@@ -19,3 +19,5 @@ Examples:
     Another example would be for the word 'eat' some posible retrieve values are 'ate', 'eat' are 'tea' (if they where on the input list)
 
 ## 2. 
+
+## 3.
