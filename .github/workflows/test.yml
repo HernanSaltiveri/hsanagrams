@@ -11,7 +11,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: get code
-              uses: actions/checkout@v2
+              uses: actions/checkout@v7
 
             - name: install python
               uses: actions/setup-python@v7
@@ -28,6 +28,6 @@ jobs:
 
             - name: List all files in the container
               run: tree
-              
+
             - name: Run tests
               run: python scripts/run_tests.py
