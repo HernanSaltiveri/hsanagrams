@@ -1,7 +1,6 @@
 # Anagrams
 
 ![Static Badge](https://img.shields.io/badge/Build_Sucessfull-Green)
-
 ![Static Badge](https://img.shields.io/badge/All_Test_Sucessfully_Running-Green)
 
 
