@@ -3,7 +3,8 @@ import unittest
 class Anagrams:
 
     def __init__(self, wordsfile):
-        self.words = open(wordsfile).read().splitlines()
+        with open(wordsfile, "r") as file:
+            self.words = file.read().splitlines()
 
     def get_anagrams(self, targetword):
         target_key = sorted(targetword.lower())

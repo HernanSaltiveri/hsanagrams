@@ -1,5 +1,8 @@
+'''
+run all tests
+'''
 import subprocess
 import os
-#result = subprocess.run(["python -m unittest", "test/testanagrams.py"])
-print(os.getcwd())
-os.system("python -m unittest discover -s test")
+#os.system("python -m unittest discover -s test")
+#os.system("uv run python -m unittest")
+os.system("python test/testanagrams.py")

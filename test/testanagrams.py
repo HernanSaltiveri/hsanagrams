@@ -1,5 +1,5 @@
 import unittest
-from anagrams.anagrams import Anagrams
+from hsanagrams.anagrams import Anagrams
 
 class TestAnagrams(unittest.TestCase):
     #def __init__(self):
@@ -12,3 +12,9 @@ class TestAnagrams(unittest.TestCase):
 
     def test_anagrams1(self):
             self.assertEqual(1, 1)
+
+def run_all():
+    unittest.main()
+
+if __name__ == "__main__":
+    run_all()
