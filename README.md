@@ -39,13 +39,13 @@ Examples:
 
 ## Usage
 
-How to build it from source
-How to install it from source
-How to install it from pypi
-How to use it as a command line tool
-How to use it as a module
-How to run all tests
-Conclusion/Final words
+- How to build it from source
+- How to install it from source
+- How to install it from pypi
+- How to use it as a command line tool
+- How to use it as a module
+- How to run all tests
+- Conclusion/Final words
 
 
 ```bash
