@@ -12,13 +12,7 @@ Examples:
     
 > Another example would be for the word 'eat' some posible retrieve values are 'ate', 'eat' are 'tea' (if they where on the input list)
 
-2. How to build it from source
-3. How to install it from source
-4. How to install it from pypi
-5. How to use it as a command line tool
-6. How to use it as a module
-7. How to run all tests
-8. Conclusion/Final words
+
 
 ## Table of Contents
 
@@ -28,7 +22,7 @@ Examples:
 - [Contributing](#contributing)
 - [License](#license)
 
-## 1. Introduction
+## Features
 This tool is designed to retrieve a list of anagram words based on a dictionary with all the posible words and a target search word. All the words in the retrieved list will be an anagram of the provided search word.
 
 Examples:
@@ -37,16 +31,28 @@ Examples:
     
 > Another example would be for the word 'eat' some posible retrieve values are 'ate', 'eat' are 'tea' (if they where on the input list)
 
-## 2. How to build it from source
+## Installation
 
 
 ```bash
 ```
 
-## 3. How to install it from source
+## Usage
+
+How to build it from source
+How to install it from source
+How to install it from pypi
+How to use it as a command line tool
+How to use it as a module
+How to run all tests
+Conclusion/Final words
+
 
 ```bash
 ```
+
+## Contributing
+
 
 ## License
 
