@@ -1,4 +1,4 @@
-![Anagrams](resources/headerreadme.png)
+![Anagrams](https://github.com/HernanSaltiveri/hsanagrams/blob/main/resources/headerreadme.png)
 # Anagrams
 
 ![Static Badge](https://img.shields.io/badge/Build-Sucessfull-Green)
@@ -15,6 +15,7 @@ This tool is designed to retrieve a list of anagram words based on a dictionary 
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Publish](#publish)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -30,14 +31,14 @@ Examples:
 ## Installation
 
 
-```bash
+```
 ```
 
 ## Usage
 
 - How to build it from source
 
-```bash
+```
 ```
 
 - How to install it from source
@@ -48,9 +49,15 @@ Examples:
 - Conclusion/Final words
 
 
-```bash
+```
 ```
 
+## Publish
+
+
+```
+
+```
 ## Contributing
 
 
