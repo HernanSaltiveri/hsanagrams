@@ -40,6 +40,10 @@ Examples:
 ## Usage
 
 - How to build it from source
+
+```bash
+```
+
 - How to install it from source
 - How to install it from pypi
 - How to use it as a command line tool
