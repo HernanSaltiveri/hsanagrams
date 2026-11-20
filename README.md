@@ -1,4 +1,8 @@
 # Anagrams
+
+![Static Badge](https://img.shields.io/badge/Build_Sucessfull-Green)
+
+
 This tool is designed to retrieve a list of anagram words based on a dictionary with all the posible words and a target search word. All the words in the retrieved list will be an anagram of the provided search word.
 
 Examples:
