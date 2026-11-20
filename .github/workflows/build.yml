@@ -1,7 +1,7 @@
 name: Building
 
 jobs:
-    test:
+    Build:
         runs-on: ubuntu-latest
         steps:
             - name: get code
