@@ -1,16 +1,11 @@
 """This is the main test class."""
-
 import sys
 import os
-#import src
+import unittest
 
 sys.path.insert(0, os.path.abspath(
     os.path.join(os.path.dirname(__file__), '..')))
 
-import unittest
-#from hsanagrams.anagrams import Anagrams
-#from src.hsanagrams.anagrams  import Anagrams
-#import src.hsanagrams.anagrams as anag
 from hsanagrams.anagrams import Anagrams
 
 class TestAnagrams(unittest.TestCase):
