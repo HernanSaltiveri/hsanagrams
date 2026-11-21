@@ -5,19 +5,23 @@ from hsanagrams.anagrams import Anagrams
 
 class TestAnagrams(unittest.TestCase):
     """Main test class"""
-    #def __init__(self):
-    #    self.wordspath = "test/words.txt"
+    
+    anagrams = []
 
-    def test_anagrams(self):
+    @classmethod
+    def setUpClass(cls):
+        cls.anagrams = Anagrams("test/words.txt")    
+
+    def test_anagram_plates(self):
         """First Test"""
-        anagrams = Anagrams("test/words.txt")
-        self.assertEqual(anagrams.get_anagrams('plates'),
+        #anagrams = Anagrams("test/words.txt")
+        self.assertEqual(self.anagrams.get_anagrams('plates'),
                         ['palest', 'pastel', 'petals', 'plates', 'staple'])
-        self.assertEqual(anagrams.get_anagrams('eat'), ['ate', 'eat', 'tea'])
 
-    #def test_anagrams1(self):
-    #    """Dummy Test"""
-    #    self.assertEqual(1, 1)
+    def test_anagram_eat(self):
+        """First Test"""
+        #anagrams = Anagrams("test/words.txt")
+        self.assertEqual(self.anagrams.get_anagrams('eat'), ['ate', 'eat', 'tea'])
 
 def run_all():
     """Run all Test"""
