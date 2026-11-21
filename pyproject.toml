@@ -30,3 +30,6 @@ dev = [
 Homepage = "https://github.com/hernansaltiveri/hsanagrams"
 Repository = "https://github.com/hernansaltiveri/hsanagrams"
 Issues = "https://github.com/HernanSaltiveri/hsanagrams/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
