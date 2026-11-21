@@ -20,20 +20,22 @@ jobs:
             - name: get code
               uses: actions/checkout@v7
 
-            - name: install python
-              uses: actions/setup-python@v7
-              with:
-                python-version: '3.13'
-                cache: 'pip'
+            #- name: install python
+            #  uses: actions/setup-python@v7
+            #  with:
+            #    python-version: '3.13'
+            #    cache: 'pip'
 
             - name: Install dependencies
               run: |
+                apt update
+                apt install -y python3-full python3-pip
                 python -m pip install --upgrade pip
                 pip install -r requirements.txt
+                pip install -e .
                 curl -LsSf https://astral.sh/uv/install.sh | sh
                 uv sync
                 pwd
-                pip install -e .
 
             - name: List all files in the container
               run: tree
