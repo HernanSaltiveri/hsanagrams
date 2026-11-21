@@ -31,7 +31,7 @@ jobs:
               run: tree
 
             - name: Run tests
-              working-directory: ./anagrams
+              #working-directory: ./anagrams
               run: python scripts/run_tests.py
             
             - name: Publish Test Results
