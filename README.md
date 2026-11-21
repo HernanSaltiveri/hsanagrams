@@ -25,28 +25,42 @@ This tool is designed to retrieve a list of anagram words based on a dictionary 
 Examples:
 
 > For the word: 'plates' some anagrams are 'palest', 'pastel', 'petals', 'plates' and 'staple'. If the provided list contains those values they will be retrieved.
+
+'plates' > 'palest', 'pastel', 'petals', 'plates' and 'staple'
     
 > Another example would be for the word 'eat' some posible retrieve values are 'ate', 'eat' are 'tea' (if they where on the input list)
 
 ## Installation
 
-
 ```
+pip install hsanagrams
 ```
 
 ## Usage
 
+- How to install it from pypi
+```
+#
+hsanagrams 'eat' pathtofilewithwords/words.txt
+['ate', 'eat', 'tea']
+
+```
+
 - How to build it from source
 
 ```
+python scripts/build.py
 ```
 
 - How to install it from source
-- How to install it from pypi
-- How to use it as a command line tool
-- How to use it as a module
-- How to run all tests
-- Conclusion/Final words
+
+After building
+```
+pip install dist/hsanagrams-0.5.0-py3-none-any.whl
+```
+
+
+
 
 
 ```
