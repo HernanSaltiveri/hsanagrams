@@ -1,10 +1,12 @@
+"""This is the main entry point."""
+
 import argparse
-from anagrams.anagrams import Anagrams
+from hsanagrams.anagrams import Anagrams
 
 def main(word, wordspath):
+    """Main function"""
     anagrams = Anagrams(wordspath)
     print(anagrams.get_anagrams(word))
-
 
 
 if __name__ == "__main__":

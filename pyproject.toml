@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.13"
 dependencies = [
     "build>=1.6.1",
+    "pylint>=4.1.4",
     "twine>=7.0.0",
 ]
 
