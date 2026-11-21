@@ -1,4 +1,4 @@
-![Anagrams](https://github.com/HernanSaltiveri/hsanagrams/blob/main/resources/headerreadme.png)
+![Anagrams](https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/headerreadme.png)
 # Anagrams
 
 ![Static Badge](https://img.shields.io/badge/Build-Sucessfull-Green)
