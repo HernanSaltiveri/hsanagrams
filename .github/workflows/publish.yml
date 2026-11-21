@@ -28,8 +28,7 @@ jobs:
               run: tree
             
             - name: Update Toml Version
-              call-target: 
-                uses: ./.github/workflows/tomlversion.yml 
+              run: python scripts/tomlversion.py
               
             - name: Build Artifacts 
               run: python scripts/build.py
