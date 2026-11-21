@@ -48,3 +48,9 @@ jobs:
               with:
                 files: |
                     test-results/**/*.xml
+                    
+            - name: Clear workspace
+              if: always() # Ensures cleanup runs even if previous steps fail
+              run: |
+                rm -rf "${{ github.workspace }}"/*
+                rm -rf "${{ github.workspace }}"/.[!.]*
