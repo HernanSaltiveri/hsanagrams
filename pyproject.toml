@@ -1,6 +1,6 @@
 [project]
 name = "hsanagrams"
-version = "0.6.14"
+version = "0.6.15"
 description = "Add your description here"
 readme = "README.md"
 authors = [
