@@ -27,6 +27,7 @@ jobs:
                 curl -LsSf https://astral.sh/uv/install.sh | sh
                 uv sync
                 pwd
+                pip install -e .
 
             - name: List all files in the container
               run: tree
