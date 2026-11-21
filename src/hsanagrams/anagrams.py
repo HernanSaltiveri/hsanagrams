@@ -1,5 +1,5 @@
 """This is the main logic class."""
-class Anagrams: # pylint: disable=R0903
+class Anagrams: # pylint: disable=R0903,R0801
     """Logic"""
     def __init__(self, wordsfile):
         """Init"""

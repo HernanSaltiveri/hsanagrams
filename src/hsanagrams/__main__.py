@@ -1,4 +1,4 @@
-"""Description""" #  pylint: disable=R0801
+"""Description1""" # pylint: disable=W1514,R0801
 import argparse
 from hsanagrams.anagrams import Anagrams
 
