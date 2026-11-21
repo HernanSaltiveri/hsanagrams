@@ -27,6 +27,31 @@ class TestAnagrams(unittest.TestCase):
         anagrams = Anagrams("test/words.txt")
         self.assertEqual(anagrams.get_anagrams('eat'), ['ate', 'eat', 'tea'])
 
+    def test_anagram_boa(self):
+        """First Test"""
+        anagrams = Anagrams("test/words.txt")
+        self.assertEqual(anagrams.get_anagrams('boa'), ['Abo', 'boa'])
+
+    def test_anagram_act(self):
+        """First Test"""
+        anagrams = Anagrams("test/words.txt")
+        self.assertEqual(anagrams.get_anagrams('act'), ['act', 'cat'])
+
+    def test_anagram_ads(self):
+        """First Test"""
+        anagrams = Anagrams("test/words.txt")
+        self.assertEqual(anagrams.get_anagrams('ads'), ['ads', 'sad'])
+
+    def test_anagram_eath(self):
+        """First Test"""
+        anagrams = Anagrams("test/words.txt")
+        self.assertEqual(anagrams.get_anagrams('earth'), ['earth', 'hater', 'heart'])
+
+    def test_anagram_eath2(self):
+        """First Test"""
+        anagrams = Anagrams("test/words.txt")
+        self.assertNotEqual(anagrams.get_anagrams('earth'), ['earth', 'hater'])
+
 def run_all():
     """Run all Test"""
     unittest.main()
