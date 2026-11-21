@@ -26,6 +26,7 @@ jobs:
                 pip install -r requirements.txt
                 curl -LsSf https://astral.sh/uv/install.sh | sh
                 uv sync
+                pwd
 
             - name: List all files in the container
               run: tree
