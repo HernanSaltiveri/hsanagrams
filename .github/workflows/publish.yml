@@ -22,13 +22,14 @@ jobs:
                 pip install -r requirements.txt
                 curl -LsSf https://astral.sh/uv/install.sh | sh
                 uv sync
+                pip install build twine
 
             - name: List all files in the container
               run: tree
               
             - name: Build Artifacts 
               run: python scripts/build.py
-              
+
             - name: Publish Artifacts 
               env: 
                 PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
