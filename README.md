@@ -32,18 +32,9 @@ Examples:
 
 ## Installation
 
-```
-pip install hsanagrams
-```
-
-## Usage
-
 - How to install it from pypi
 ```
-#
-hsanagrams 'eat' pathtofilewithwords/words.txt
-['ate', 'eat', 'tea']
-
+pip install hsanagrams
 ```
 
 - How to build it from source
@@ -59,17 +50,20 @@ After building
 pip install dist/hsanagrams-0.5.0-py3-none-any.whl
 ```
 
-
-
+## Usage
 
 
 ```
+#
+hsanagrams 'eat' pathtofilewithwords/words.txt
+['ate', 'eat', 'tea']
+
 ```
 
 ## Publish
 
-
 ```
+python scripts/publish.py
 
 ```
 ## Contributing
