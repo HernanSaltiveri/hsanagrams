@@ -27,6 +27,9 @@ jobs:
               run: tree
               
             - name: Build Artifacts 
+              run: python scripts/build.py
+              
+            - name: Publish Artifacts 
               env: 
                 PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
               run: python scripts/publish.py
