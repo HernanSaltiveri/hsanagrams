@@ -7,6 +7,12 @@ on:
 #    pull_request:
 #        branches: [main]
 
+permissions:
+  contents: read       # Required for actions/checkout
+  checks: write        # Required to create the test report check run
+  pull-requests: write # Required to post/update summary comments on PRs
+  issues: read         # Required in private repos for some actions (e.g., EnricoMi)
+
 jobs:
     test:
         runs-on: ubuntu-latest
