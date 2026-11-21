@@ -1,9 +1,9 @@
 """This is the main logic class."""
-
-class Anagrams:
-
+class Anagrams: # pylint: disable=R0903
+    """Logic"""
     def __init__(self, wordsfile):
-        with open(wordsfile, "r") as file:
+        """Init"""
+        with open(wordsfile, "r") as file: # pylint: disable=W1514
             self.words = file.read().splitlines()
 
     def get_anagrams(self, targetword):
