@@ -7,4 +7,4 @@ import os
 #os.system("uv run python -m unittest")
 #os.system("python test/testanagrams.py")
 #os.system("uv run python test/testanagrams.py")
-os.system("uv run pytest test/testanagrams.py --junitxml=test/report.xml")
+os.system("uv run pytest test/testanagrams.py --junitxml=test-results/report.xml")
