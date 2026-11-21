@@ -31,4 +31,12 @@ jobs:
               run: tree
 
             - name: Run tests
+              working-directory: ./anagrams
               run: python scripts/run_tests.py
+            
+            - name: Publish Test Results
+              uses: EnricoMi/publish-unit-test-result-action@v2
+              if: (!cancelled())
+              with:
+              files: |
+                test-results/**/*.xml
