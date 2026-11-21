@@ -35,8 +35,16 @@ jobs:
                 uv sync
                 pwd
 
+
             - name: List all files in the container
               run: tree
+
+            - name: Run build
+              run: python scripts/build.py
+
+            - name: Install anagrams
+              run: pip install dist/*.whl
+              
 
             - name: Run tests
               #working-directory: ./anagrams
