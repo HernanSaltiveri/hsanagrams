@@ -62,9 +62,10 @@ hsanagrams 'eat' pathtofilewithwords/words.txt
 
 ## Publish
 
+This is how to push a new version to pypi. This code is also used by the publish.yml workflow.
+
 ```
 python scripts/publish.py
-
 ```
 ## Contributing
 
