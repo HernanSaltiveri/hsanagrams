@@ -4,6 +4,8 @@
   <br/><br/>
 
 ![GitHub branch check runs](https://img.shields.io/github/check-runs/hernansaltiveri/hsanagrams/main?nameFilter=Building)
+![GitHub branch status](https://img.shields.io/github/checks-status/hernansaltiveri/hsanagrams/main?style=flat&logo=github)
+
 
   ![GitHub repo size](https://shields.io)
   ![GitHub license](https://shields.io)
