@@ -1,19 +1,6 @@
 ![Anagrams](https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/headerreadme.png)
 
 
-
-
-
-<div align="left">
-
-
-
-
-
-
-</div>
-
-
 # Anagrams
 
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/hernansaltiveri/hsanagrams/build.yml?label=Build)
@@ -21,7 +8,7 @@
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/hernansaltiveri/hsanagrams/publish.yml?label=Publish)
 ![GitHub last commit](https://img.shields.io/github/last-commit/hernansaltiveri/hsanagrams)
 ![GitHub License](https://img.shields.io/github/license/hernansaltiveri/hsanagrams)
-![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams)
+![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams?color=green)
 
 
 
