@@ -10,47 +10,47 @@ from hsanagrams.anagrams import Anagrams
 
 class TestAnagrams(unittest.TestCase):
     """Main test class"""
-    #anagrams = []
+    anagrams = []
 
-    #@classmethod
-    #def setUpClass(cls):
-    #    cls.anagrams = Anagrams("test/words.txt")
+    @classmethod
+    def setUpClass(cls):
+        cls.anagrams = Anagrams("test/words.txt")
 
     def test_anagram_plates(self):
         """First Test"""
-        anagrams = Anagrams("test/words.txt")
-        self.assertEqual(anagrams.get_anagrams('plates'),
+        #anagrams = Anagrams("test/words.txt")
+        self.assertEqual(self.anagrams.get_anagrams('plates'),
                         ['palest', 'pastel', 'petals', 'plates', 'staple'])
 
     def test_anagram_eat(self):
         """First Test"""
-        anagrams = Anagrams("test/words.txt")
-        self.assertEqual(anagrams.get_anagrams('eat'), ['ate', 'eat', 'tea'])
+        #anagrams = Anagrams("test/words.txt")
+        self.assertEqual(self.anagrams.get_anagrams('eat'), ['ate', 'eat', 'tea'])
 
     def test_anagram_boa(self):
         """First Test"""
-        anagrams = Anagrams("test/words.txt")
-        self.assertEqual(anagrams.get_anagrams('boa'), ['Abo', 'boa'])
+        #anagrams = Anagrams("test/words.txt")
+        self.assertEqual(self.anagrams.get_anagrams('boa'), ['Abo', 'boa'])
 
     def test_anagram_act(self):
         """First Test"""
-        anagrams = Anagrams("test/words.txt")
-        self.assertEqual(anagrams.get_anagrams('act'), ['act', 'cat'])
+        #anagrams = Anagrams("test/words.txt")
+        self.assertEqual(self.anagrams.get_anagrams('act'), ['act', 'cat'])
 
     def test_anagram_ads(self):
         """First Test"""
-        anagrams = Anagrams("test/words.txt")
-        self.assertEqual(anagrams.get_anagrams('ads'), ['ads', 'sad'])
+        #anagrams = Anagrams("test/words.txt")
+        self.assertEqual(self.anagrams.get_anagrams('ads'), ['ads', 'sad'])
 
     def test_anagram_eath(self):
         """First Test"""
-        anagrams = Anagrams("test/words.txt")
-        self.assertEqual(anagrams.get_anagrams('earth'), ['earth', 'hater', 'heart'])
+        #anagrams = Anagrams("test/words.txt")
+        self.assertEqual(self.anagrams.get_anagrams('earth'), ['earth', 'hater', 'heart'])
 
     def test_anagram_eath2(self):
         """First Test"""
-        anagrams = Anagrams("test/words.txt")
-        self.assertNotEqual(anagrams.get_anagrams('earth'), ['earth', 'hater'])
+        #anagrams = Anagrams("test/words.txt")
+        self.assertNotEqual(self.anagrams.get_anagrams('earth'), ['earth', 'hater'])
 
 def run_all():
     """Run all Test"""
