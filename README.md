@@ -11,14 +11,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams?color=green)
 
 
-
-
-
-
-
-
-
-
 This tool is designed to retrieve a list of anagram words based on a dictionary with all the posible words and a target search word. All the words in the retrieved list will be an anagram of the provided search word.
 
 
@@ -32,7 +24,9 @@ This tool is designed to retrieve a list of anagram words based on a dictionary 
 - [License](#license)
 
 ## Features
-This tool is designed to retrieve a list of anagram words based on a dictionary with all the posible words and a target search word. All the words in the retrieved list will be an anagram of the provided search word.
+
+Given a words.txt file containing a newline-delimited list of dictionary
+words, this project will retrieve the list of items containing all the anagrams from words.txt for a given word.
 
 Examples:
 
