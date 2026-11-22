@@ -71,6 +71,8 @@ also a usage can be explored [here](test/tests.ipynb)
 
 This is how to push a new version to pypi. This code is also used by the publish.yml workflow.
 
+https://pypi.org/project/hsanagrams/
+
 ```
 python scripts/publish.py
 ```
