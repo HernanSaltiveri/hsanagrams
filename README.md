@@ -3,11 +3,7 @@
 <div align="left">
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams)
-![GitHub last commit](https://img.shields.io/github/last-commit/hernansaltiveri/hsanagrams)
-![GitHub License](https://img.shields.io/github/license/hernansaltiveri/hsanagrams)
-![Static Badge](https://img.shields.io/badge/Build-Sucessfull-Green)
-![Static Badge](https://img.shields.io/badge/Test-Sucessfull-Green)
+
 
 
 
@@ -15,6 +11,12 @@
 
 
 # Anagrams
+
+![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams)
+![GitHub last commit](https://img.shields.io/github/last-commit/hernansaltiveri/hsanagrams)
+![GitHub License](https://img.shields.io/github/license/hernansaltiveri/hsanagrams)
+![Static Badge](https://img.shields.io/badge/Build-Sucessfull-Green)
+![Static Badge](https://img.shields.io/badge/Test-Sucessfull-Green)
 
 
 
