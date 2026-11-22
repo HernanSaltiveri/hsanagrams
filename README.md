@@ -3,10 +3,13 @@
 
   <br/><br/>
 
+![GitHub branch check runs](https://img.shields.io/github/check-runs/hernansaltiveri/hsanagrams/main?nameFilter=Building)
+
   ![GitHub repo size](https://shields.io)
   ![GitHub license](https://shields.io)
   ![GitHub last commit](https://shields.io)
 </div>
+
 ![Anagrams](https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/headerreadme.png)
 # Anagrams
 
