@@ -1,22 +1,22 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/github-header-banner.png" alt="Header del proyecto" width="100%" />
-
-  <br/><br/>
-
-![GitHub branch check runs](https://img.shields.io/github/check-runs/hernansaltiveri/hsanagrams/main?nameFilter=Building)
-![GitHub branch status](https://img.shields.io/github/checks-status/hernansaltiveri/hsanagrams/main?style=flat&logo=github)
-
-
-  ![GitHub repo size](https://shields.io)
-  ![GitHub license](https://shields.io)
-  ![GitHub last commit](https://shields.io)
-</div>
-
 ![Anagrams](https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/headerreadme.png)
-# Anagrams
 
+<div align="center">
+
+
+![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams)
+![GitHub last commit](https://img.shields.io/github/last-commit/hernansaltiveri/hsanagrams)
+![GitHub License](https://img.shields.io/github/license/hernansaltiveri/hsanagrams)
+<br>
 ![Static Badge](https://img.shields.io/badge/Build-Sucessfull-Green)
 ![Static Badge](https://img.shields.io/badge/Test-Sucessfull-Green)
+
+
+
+</div>
+
+
+# Anagrams
+
 
 
 
