@@ -20,7 +20,7 @@ This tool is designed to retrieve a list of anagram words based on a dictionary 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Publish](#publish)
-- [Contributing](#contributing)
+- [Organization](#organization)
 - [License](#license)
 
 ## Features
@@ -76,8 +76,60 @@ https://pypi.org/project/hsanagrams/
 ```
 python scripts/publish.py
 ```
-## Contributing
+## Organization
 
+```
+.
+├── LICENSE.md
+├── README.md
+├── VERSION.txt
+├── __init__.py
+├── __pycache__
+│   └── __init__.cpython-313.pyc
+├── app.py
+├── dist
+│   └── hsanagrams-0.6.19-py3-none-any.whl
+├── docs
+│   ├── AUTHORS.md
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   ├── SECURITY.md
+│   └── SUPPORT.md
+├── header.svg
+├── pyproject.toml
+├── requirements.txt
+├── resources
+│   ├── github-header-banner.png
+│   └── headerreadme.png
+├── scripts
+│   ├── build.py
+│   ├── codequality.py
+│   ├── publish.py
+│   ├── run_tests.py
+│   └── tomlversion.py
+├── src
+│   ├── __init__.py
+│   └── hsanagrams
+│       ├── __init__.py
+│       ├── __main__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-313.pyc
+│       │   ├── __main__.cpython-313.pyc
+│       │   └── anagrams.cpython-313.pyc
+│       ├── anagrams.py
+│       └── anagrams.pyi
+├── test
+│   ├── __pycache__
+│   │   ├── __init__.cpython-313.pyc
+│   │   └── testanagrams.cpython-313-pytest-9.2.0.pyc
+│   ├── testanagrams.py
+│   ├── tests.ipynb
+│   └── words.txt
+├── test-results
+│   └── report.xml
+└── uv.lock
+```
 
 ## License
 
