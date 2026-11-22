@@ -1,5 +1,9 @@
 ![Anagrams](https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/headerreadme.png)
 
+
+
+
+
 <div align="left">
 
 
@@ -11,11 +15,21 @@
 
 
 # Anagrams
-![Static Badge](https://img.shields.io/badge/Build-Sucessfull-Green)
-![Static Badge](https://img.shields.io/badge/Test-Sucessfull-Green)
-![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams)
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/hernansaltiveri/hsanagrams/build.yml?label=Build)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/hernansaltiveri/hsanagrams/test.yml?label=Test)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/hernansaltiveri/hsanagrams/publish.yml?label=Publish)
+
+
+
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/hernansaltiveri/hsanagrams)
 ![GitHub License](https://img.shields.io/github/license/hernansaltiveri/hsanagrams)
+![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams)
+
+
+
+
 
 
 
