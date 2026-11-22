@@ -58,13 +58,14 @@ pip install dist/hsanagrams-0.5.0-py3-none-any.whl
 
 ## Usage
 
-
 ```
 #
 hsanagrams 'eat' pathtofilewithwords/words.txt
 ['ate', 'eat', 'tea']
 
 ```
+
+also a usage can be explored [here](test/tests.ipynb)
 
 ## Publish
 
