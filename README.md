@@ -1,3 +1,12 @@
+<div align="center">
+  <img src=".github/assets/header.svg" alt="Header del proyecto" width="100%" />
+
+  <br/><br/>
+
+  ![GitHub repo size](https://shields.io)
+  ![GitHub license](https://shields.io)
+  ![GitHub last commit](https://shields.io)
+</div>
 ![Anagrams](https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/headerreadme.png)
 # Anagrams
 
