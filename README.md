@@ -1,6 +1,6 @@
 ![Anagrams](https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/headerreadme.png)
 
-<div align="center">
+<div align="left">
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/hernansaltiveri/hsanagrams)
