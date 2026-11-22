@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header.svg" alt="Header del proyecto" width="100%" />
+  <img src="https://raw.githubusercontent.com/HernanSaltiveri/hsanagrams/refs/heads/main/resources/github-header-banner.png" alt="Header del proyecto" width="100%" />
 
   <br/><br/>
 
